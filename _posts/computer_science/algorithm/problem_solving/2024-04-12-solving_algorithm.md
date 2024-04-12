@@ -1,7 +1,6 @@
 ---
 published: true
-title: 파이토치 딥러닝 마스터 10장~12장
-date: 2024-04-05 15:10:00
+title: 문제 해결 과정
 categories: [Computer Science, Algorithm]
 tags: [problem solving]     # TAG names should always be lowercase
 mermaid: true
