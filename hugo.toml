@@ -1,3 +1,59 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://lyrad913.github.io/'
+languageCode = 'ko-kr'
+title = 'Segundo Cerebro'
+theme = "hugo-book"
+
+copyright = '[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)'
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 1
+
+[markup.highlight]
+style = 'base16-snazzy'
+
+[params]
+BookTheme = "light"
+BookToC = "true"
+BookDataFormat = "2006-01-02"
+BookSearch = "true"
+
+[menu]
+[[menu.home]]
+name = 'Blog'
+pageRef = '/posts/'
+weight = 1
+
+[[menu.home]]
+pageRef = '/docs/example/'
+weight = 10
+parent = 'CV'
+
+[[menu.home]]
+name = 'Showcases'
+pageRef = '/showcases/'
+weight = 2
+
+[[menu.home]]
+name = 'Github'
+url = 'https://github.com/lyrad913'
+weight = 3
+
+# [[menu.before]]
+[[menu.after]]
+name = 'Github'
+url = 'https://github.com/lyrad913'
+weight = 10
+
+[[menu.after]]
+name = 'Home'
+url = '/'
+weight = 1

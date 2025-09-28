@@ -1,0 +1,17 @@
+# Hugo build output
+public/
+
+# Hugo cache
+resources/_gen/
+assets/jsconfig.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Node modules (if using npm for assets)
+node_modules/
