@@ -1,69 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Segundo Cerebro</title><link>https://lyrad913.github.io/</link><description>Recent content on Segundo Cerebro</description><generator>Hugo</generator><language>ko-kr</language><copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright><atom:link href="https://lyrad913.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://lyrad913.github.io/posts/esque/Optimizers/</link><pubDate>Mon, 13 Oct 2025 17:46:00 +0900</pubDate><guid>https://lyrad913.github.io/posts/esque/Optimizers/</guid><description>&lt;link rel="stylesheet" href="https://lyrad913.github.io/katex/katex.min.css" /&gt;
-&lt;script defer src="https://lyrad913.github.io/katex/katex.min.js"&gt;&lt;/script&gt;
-
- &lt;script defer src="https://lyrad913.github.io/katex/auto-render.min.js" onload="renderMathInElement(document.body, {
- &amp;#34;delimiters&amp;#34;: [
- {&amp;#34;left&amp;#34;: &amp;#34;$$&amp;#34;, &amp;#34;right&amp;#34;: &amp;#34;$$&amp;#34;, &amp;#34;display&amp;#34;: true},
- {&amp;#34;left&amp;#34;: &amp;#34;\\(&amp;#34;, &amp;#34;right&amp;#34;: &amp;#34;\\)&amp;#34;, &amp;#34;display&amp;#34;: false},
- {&amp;#34;left&amp;#34;: &amp;#34;\\[&amp;#34;, &amp;#34;right&amp;#34;: &amp;#34;\\]&amp;#34;, &amp;#34;display&amp;#34;: true}
- ]
-});"&gt;&lt;/script&gt;
-
-
-&lt;h2 id="asdfas"&gt;
- asdfas
- 
- &lt;a class="anchor" href="#asdfas"&gt;#&lt;/a&gt;
- 
-&lt;/h2&gt;
-&lt;h2 id="최적화기란"&gt;
- 최적화기란?
- 
- &lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%eb%9e%80"&gt;#&lt;/a&gt;
- 
-&lt;/h2&gt;
-&lt;div class="book-columns book-columns-1 "&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Segundo Cerebro</title><link>https://lyrad913.github.io/</link><description>Recent content on Segundo Cerebro</description><generator>Hugo</generator><language>ko-kr</language><copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright><atom:link href="https://lyrad913.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://lyrad913.github.io/posts/esque/Optimizers/</link><pubDate>Mon, 13 Oct 2025 17:46:00 +0900</pubDate><guid>https://lyrad913.github.io/posts/esque/Optimizers/</guid><description>&lt;h2 id="asdfas"&gt;asdfas&lt;a class="anchor" href="#asdfas"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="최적화기란"&gt;최적화기란?&lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%eb%9e%80"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="book-columns"&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h3 id="최적화기의-역할"&gt;
- 최적화기의 역할
- 
- &lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%ec%9d%98-%ec%97%ad%ed%95%a0"&gt;#&lt;/a&gt;
- 
-&lt;/h3&gt;
+&lt;h3 id="최적화기의-역할"&gt;최적화기의 역할&lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%ec%9d%98-%ec%97%ad%ed%95%a0"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;메롱 약오르지&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id="최적화기의-어쩌구저쩌구"&gt;
- 최적화기의 어쩌구저쩌구
- 
- &lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%ec%9d%98-%ec%96%b4%ec%a9%8c%ea%b5%ac%ec%a0%80%ec%a9%8c%ea%b5%ac"&gt;#&lt;/a&gt;
- 
-&lt;/h3&gt;
+&lt;h3 id="최적화기의-어쩌구저쩌구"&gt;최적화기의 어쩌구저쩌구&lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%ec%9d%98-%ec%96%b4%ec%a9%8c%ea%b5%ac%ec%a0%80%ec%a9%8c%ea%b5%ac"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;어쩌구저쩌구~~&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;p&gt;$ asdfasdf $
+$ asdfasdf $
 asdfasdf
 $$
 asdf
-$$&lt;/p&gt;
-
-
-&lt;script src="https://lyrad913.github.io/mermaid.min.js"&gt;&lt;/script&gt;
-
- &lt;script&gt;mermaid.initialize({
- "flowchart": {
- "useMaxWidth":true
- },
- "theme": "default"
-}
-)&lt;/script&gt;
-
-
-
-
+$$
 &lt;pre class="mermaid"&gt;graph TD;
  A--&amp;gt;B;
  A--&amp;gt;C;
