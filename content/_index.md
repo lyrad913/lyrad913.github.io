@@ -3,9 +3,9 @@ title: ""
 layout: "landing"
 ---
 
-# Hugo Book
+# Segundo Cerebro
 
-<!-- <div class="book-hero">
+<div class="book-hero">
 
 # HUGO BOOK {anchor=false}
 [Hugo](https://gohugo.io) documentation theme as simple as plain book
@@ -15,9 +15,9 @@ layout: "landing"
 
 {{<button href="/docs/example">}}Explore{{</button>}}
 
-</div> -->
+</div>
 
-<!-- [{{< badge title="Hugo" value="0.147.6" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6) -->
+[{{< badge title="Hugo" value="0.147.6" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 
 {{% columns %}}
 - ## What Hugo-Book Theme Is

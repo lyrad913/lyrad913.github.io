@@ -20,12 +20,6 @@ startLevel = 1
 [markup.highlight]
 style = 'base16-snazzy'
 
-[params]
-BookTheme = "light"
-BookToC = "true"
-BookDataFormat = "2006-01-02"
-BookSearch = "true"
-
 [menu]
 [[menu.home]]
 name = 'Blog'
@@ -57,3 +51,12 @@ weight = 10
 name = 'Home'
 url = '/'
 weight = 1
+
+
+[params]
+BookTheme = "light"
+BookToC = true
+BookDateFormat = "2006-01-02"
+BookSearch = true
+BookSection = "posts"
+BookFavicon = "favicon.png"

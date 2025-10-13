@@ -15,3 +15,6 @@ Thumbs.db
 
 # Node modules (if using npm for assets)
 node_modules/
+
+.vscode/
+.frontmatter/
