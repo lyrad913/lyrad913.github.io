@@ -32,25 +32,25 @@ weight = 10
 parent = 'CV'
 
 [[menu.home]]
-name = 'Showcases'
-pageRef = '/showcases/'
-weight = 2
-
-[[menu.home]]
 name = 'Github'
 url = 'https://github.com/lyrad913'
 weight = 3
 
 # [[menu.before]]
 [[menu.after]]
+name = "Blog"
+url = '/posts/'
+weight = 1
+
+[[menu.after]]
+name = 'Profile'
+url = '/'
+weight = 2
+
+[[menu.after]]
 name = 'Github'
 url = 'https://github.com/lyrad913'
 weight = 10
-
-[[menu.after]]
-name = 'Home'
-url = '/'
-weight = 1
 
 
 [params]

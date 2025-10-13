@@ -35,4 +35,39 @@ graph TD;
     C-->D;
 ```
 
+{{% steps %}}
+1. ## Something
+    asdfasdfadfsa
 
+2. ## todo
+    Asdfasdfas
+
+3. ## asdfasdf
+   asdfasdfasdf
+{{% /steps %}}
+
+{{% tabs %}}
+{{% tab "window" %}}
+Do Somthine
+{{% /tab %}}
+{{% tab "MacOS" %}}
+do anotherthing
+{{% /tab %}}
+{{% /tabs %}}
+
+{{% columns ratio="1:1" %}}
+- # asdfasdf
+  
+- ## asdfasdf
+  
+- ## asdfasdf
+
+{{% /columns %}}
+
+$$
+    \exists \to \in \mathbb{R}, x^2 = 1
+$$ 
+
+$$
+    \to \infty \lim_{x \to \infty} f(x)
+$$ 

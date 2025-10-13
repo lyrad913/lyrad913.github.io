@@ -3,28 +3,20 @@ title: ""
 layout: "landing"
 ---
 
-# Segundo Cerebro
 
 <div class="book-hero">
 
-# HUGO BOOK {anchor=false}
-[Hugo](https://gohugo.io) documentation theme as simple as plain book
+# Segundo Cerebro 
+간단한 공부 정리 겸 기록용 블로그입니다.
 
-[{{< badge style="info" title="Hugo" value="0.146" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.146.7)
-[{{< badge style="default" title="License" value="MIT" >}}](https://github.com/alex-shpak/hugo-book/blob/main/LICENSE)
-
-{{<button href="/docs/example">}}Explore{{</button>}}
-
-</div>
-
-[{{< badge title="Hugo" value="0.147.6" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.147.6)
 
 {{% columns %}}
-- ## What Hugo-Book Theme Is
-  Hugo book theme is primarily designed to create technical documentation sites that are easy to read, write, navigate and maintain. It is an attempt to create a sustainable web project.
+- ## 관심사
+  - C++, Python, Rust, Go
+  - Machine Learning, Deep Learning
+  - MLOps, DevOps
 
-- ## What Hugo-Book Theme Is Not
-  Book theme is not trying to implement all features but to create a starting point. It is mostly feature complete and gets updated and improved to stay relevant with Hugo and modern web.
+- ## 잘하고 싶다.
 {{% /columns %}}
 
 
