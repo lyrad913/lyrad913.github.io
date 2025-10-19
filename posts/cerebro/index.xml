@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Segundo Cerebro</title><link>https://lyrad913.github.io/posts/cerebro/</link><description>Recent content on Segundo Cerebro</description><generator>Hugo</generator><language>ko-kr</language><copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright><atom:link href="https://lyrad913.github.io/posts/cerebro/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://lyrad913.github.io/posts/cerebro/Optimizers/</link><pubDate>Mon, 13 Oct 2025 17:46:00 +0900</pubDate><guid>https://lyrad913.github.io/posts/cerebro/Optimizers/</guid><description>&lt;h2 id="asdfas"&gt;asdfas&lt;a class="anchor" href="#asdfas"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="최적화기란"&gt;최적화기란?&lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%eb%9e%80"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="book-columns"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id="최적화기의-역할"&gt;최적화기의 역할&lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%ec%9d%98-%ec%97%ad%ed%95%a0"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;메롱 약오르지&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id="최적화기의-어쩌구저쩌구"&gt;최적화기의 어쩌구저쩌구&lt;a class="anchor" href="#%ec%b5%9c%ec%a0%81%ed%99%94%ea%b8%b0%ec%9d%98-%ec%96%b4%ec%a9%8c%ea%b5%ac%ec%a0%80%ec%a9%8c%ea%b5%ac"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;어쩌구저쩌구~~&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+$ asdfasdf $
+asdfasdf
+$$
+asdf
+$$
+&lt;pre class="mermaid"&gt;graph TD;
+ A--&amp;gt;B;
+ A--&amp;gt;C;
+ B--&amp;gt;D;
+ C--&amp;gt;D;&lt;/pre&gt;&lt;div class="book-steps"&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h2 id="something"&gt;Something&lt;a class="anchor" href="#something"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;asdfasdfadfsa&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id="todo"&gt;todo&lt;a class="anchor" href="#todo"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Asdfasdfas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id="asdfasdf"&gt;asdfasdf&lt;a class="anchor" href="#asdfasdf"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;asdfasdfasdf&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="book-tabs"&gt;
+&lt;input type="radio" class="toggle" name="tabs-3" id="tabs-3-0" checked="checked" /&gt;&lt;label for="tabs-3-0"&gt;window&lt;/label&gt;&lt;div class="book-tabs-content markdown-inner"&gt;
+&lt;p&gt;Do Somthine&lt;/p&gt;
+&lt;/div&gt;
+&lt;input type="radio" class="toggle" name="tabs-3" id="tabs-3-1" /&gt;&lt;label for="tabs-3-1"&gt;MacOS&lt;/label&gt;&lt;div class="book-tabs-content markdown-inner"&gt;
+&lt;p&gt;do anotherthing&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;.book-columns-4&gt;ul&gt;li:nth-child(1){
+ flex-grow: 1;
+ }.book-columns-4&gt;ul&gt;li:nth-child(2){
+ flex-grow: 1;
+ }&lt;/style&gt;&lt;div class="book-columns"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1 id="asdfasdf-1"&gt;asdfasdf&lt;a class="anchor" href="#asdfasdf-1"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id="asdfasdf-2"&gt;asdfasdf&lt;a class="anchor" href="#asdfasdf-2"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id="asdfasdf-3"&gt;asdfasdf&lt;a class="anchor" href="#asdfasdf-3"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+$$
+ \exists \to \in \mathbb{R}, x^2 = 1
+$$$$
+ \to \infty \lim_{x \to \infty} f(x)
+$$</description></item><item><title>Diffusion Model Application</title><link>https://lyrad913.github.io/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model-Application/</link><pubDate>Tue, 12 Aug 2025 23:00:48 +0000</pubDate><guid>https://lyrad913.github.io/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model-Application/</guid><description>&lt;link rel="stylesheet" href="https://lyrad913.github.io/katex/katex.min.css" /&gt;&lt;script defer src="https://lyrad913.github.io/katex/katex.min.js"&gt;&lt;/script&gt;&lt;script defer src="https://lyrad913.github.io/katex/auto-render.min.js" onload="renderMathInElement(document.body, {&amp;#34;delimiters&amp;#34;:[{&amp;#34;left&amp;#34;:&amp;#34;$&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;$&amp;#34;,&amp;#34;display&amp;#34;:false},{&amp;#34;left&amp;#34;:&amp;#34;$$&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;$$&amp;#34;,&amp;#34;display&amp;#34;:true},{&amp;#34;left&amp;#34;:&amp;#34;\\(&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;\\)&amp;#34;,&amp;#34;display&amp;#34;:false},{&amp;#34;left&amp;#34;:&amp;#34;\\[&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;\\]&amp;#34;,&amp;#34;display&amp;#34;:true}]});"&gt;&lt;/script&gt;
+&lt;p&gt;$p(x)$, 즉, 데이터의 분포를 모델링하는 것보단 $p(x|y)$를 모델링하는 것이 유용한 경우가 많다. $y$ 는 텍스트라든지, 이미지라든지, 레이블이 될 수 있다.&lt;/p&gt;
+&lt;h2 id="conditional-diffusion-model"&gt;Conditional Diffusion Model&lt;a class="anchor" href="#conditional-diffusion-model"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div&gt;
+$$
+p_{\theta}(x_{t-1}|x_{t},y) = N(x_{t-1}; \mu_{\theta}(x_{t}, t, y), \sigma_{q}^2I)
+$$
+&lt;/div&gt;
+&lt;h2 id="improvementscore-function"&gt;Improvement(Score function)&lt;a class="anchor" href="#improvementscore-function"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div&gt;
+$$
+\epsilon \approx -\sqrt{ 1-\bar{\alpha}_{t} }\nabla_{x_{t}}\log p(x_{t})
+$$
+&lt;/div&gt;
+&lt;p&gt;여기서 $\nabla_{x_{t}}\log p(x_{t})$를 score 또는 score function이라 부른다. 노이즈와 점수가 상수배 차이가 나므로, 점수 자체를 학습하는 신경망도 가능하다.&lt;/p&gt;
+&lt;h3 id="유도"&gt;유도&lt;a class="anchor" href="#%ec%9c%a0%eb%8f%84"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div&gt;
+$$
+\begin{align}
+q(x_{t}|x_{0}) &amp; = N(x_{t}; \sqrt{ \bar{\alpha}_{t} }x_{0}, (1-\bar{\alpha}_{t})I) \\
+ &amp; \text{(by Tweedie's Formula)} \\
+\mathbb{E}[\sqrt{ \bar{\alpha}_{t} }x_{0}|x_{t}] &amp; = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow \mathbb{E}[x_{t}-\sqrt{ 1-\bar{\alpha}_{t} }\epsilon|x_{t}] = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow\mathbb{E}[x_{t}|x_{t}] - \mathbb{E}[\sqrt{ 1-\bar{\alpha}_{t} }\epsilon|x_{t}] = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow x_{t}- \mathbb{E}[\sqrt{ 1-\bar{\alpha}_{t} }\epsilon|x_{t}] = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow -\sqrt{ 1-\bar{\alpha}_{t} }\mathbb{E}[\epsilon|x_{t}] = (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \text{(by Monte Carlo)} \\
+ &amp; 
+\epsilon \approx -\sqrt{ 1-\bar{\alpha}_{t} }\nabla_{x_{t}}\log p(x_{t})
+\end{align}
+$$
+&lt;/div&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;[!Twedie&amp;rsquo;s Formula]-&lt;/p&gt;</description></item><item><title>Diffusion Model</title><link>https://lyrad913.github.io/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model/</link><pubDate>Tue, 12 Aug 2025 15:47:52 +0000</pubDate><guid>https://lyrad913.github.io/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model/</guid><description>&lt;p&gt;&lt;a href="VAE"&gt;VAE&lt;/a&gt;와 비교했을 때 다음의 차이가 있음&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;관측 변수와 잠재 변수의 차원을 일치&lt;/li&gt;
+&lt;li&gt;고정된 정규 분포를 따르는 노이즈를 인코더에 추가.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="알고리즘"&gt;알고리즘&lt;a class="anchor" href="#%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;x_T ~ N(0, 1)
+for t in [T, ..., 1]:
+	epsilon ~ N(0, 1)
+	if t = 1 then epsilon = 0
+	x_{t-1} = mu_{theta}(x_t, t) + sigma_q(t)*epsilon
+return x_0&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="diffusion-process"&gt;Diffusion Process&lt;a class="anchor" href="#diffusion-process"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div&gt;
+$$
+q(x_{t}|x_{t-1}) = N(x_{t}; \sqrt{ 1-\beta_{t} }x_{t-1}, \beta_{t}I)
+$$
+&lt;/div&gt;
+&lt;h3 id="noise-sampling"&gt;Noise Sampling&lt;a class="anchor" href="#noise-sampling"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;$\beta_{t}$ 값은 설정된 값(선형, 지수, 코사인파 등등)&lt;/p&gt;
+&lt;h3 id="재매개변수화-트릭"&gt;재매개변수화 트릭&lt;a class="anchor" href="#%ec%9e%ac%eb%a7%a4%ea%b0%9c%eb%b3%80%ec%88%98%ed%99%94-%ed%8a%b8%eb%a6%ad"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div&gt;
+$$
+\begin{align}
+\epsilon &amp;\sim N(0, 1) \\ 
+x_{t} &amp;= \sqrt{ 1-\beta_{t} }x_{t-1} + \sqrt{ \beta_{t} }\epsilon \\
+\end{align}
+$$
+&lt;/div&gt;
+&lt;h2 id="reverse-diffusion-process"&gt;Reverse Diffusion Process&lt;a class="anchor" href="#reverse-diffusion-process"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://lyrad913.github.io/images/cerebro/Artificial%20Intelligence/Neural%20Network/attachments/Pasted%20image%2020250813005714.png" alt="attachments/Pasted image 20250813005714.png" /&gt;&lt;/p&gt;</description></item></channel></rss>

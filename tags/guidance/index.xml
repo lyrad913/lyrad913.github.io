@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guidance on Segundo Cerebro</title><link>https://lyrad913.github.io/tags/guidance/</link><description>Recent content in Guidance on Segundo Cerebro</description><generator>Hugo</generator><language>ko-kr</language><copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright><lastBuildDate>Sun, 19 Oct 2025 23:10:20 +0900</lastBuildDate><atom:link href="https://lyrad913.github.io/tags/guidance/index.xml" rel="self" type="application/rss+xml"/><item><title>Diffusion Model Application</title><link>https://lyrad913.github.io/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model-Application/</link><pubDate>Tue, 12 Aug 2025 23:00:48 +0000</pubDate><guid>https://lyrad913.github.io/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model-Application/</guid><description>&lt;link rel="stylesheet" href="https://lyrad913.github.io/katex/katex.min.css" /&gt;&lt;script defer src="https://lyrad913.github.io/katex/katex.min.js"&gt;&lt;/script&gt;&lt;script defer src="https://lyrad913.github.io/katex/auto-render.min.js" onload="renderMathInElement(document.body, {&amp;#34;delimiters&amp;#34;:[{&amp;#34;left&amp;#34;:&amp;#34;$&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;$&amp;#34;,&amp;#34;display&amp;#34;:false},{&amp;#34;left&amp;#34;:&amp;#34;$$&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;$$&amp;#34;,&amp;#34;display&amp;#34;:true},{&amp;#34;left&amp;#34;:&amp;#34;\\(&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;\\)&amp;#34;,&amp;#34;display&amp;#34;:false},{&amp;#34;left&amp;#34;:&amp;#34;\\[&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;\\]&amp;#34;,&amp;#34;display&amp;#34;:true}]});"&gt;&lt;/script&gt;
+&lt;p&gt;$p(x)$, 즉, 데이터의 분포를 모델링하는 것보단 $p(x|y)$를 모델링하는 것이 유용한 경우가 많다. $y$ 는 텍스트라든지, 이미지라든지, 레이블이 될 수 있다.&lt;/p&gt;
+&lt;h2 id="conditional-diffusion-model"&gt;Conditional Diffusion Model&lt;a class="anchor" href="#conditional-diffusion-model"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div&gt;
+$$
+p_{\theta}(x_{t-1}|x_{t},y) = N(x_{t-1}; \mu_{\theta}(x_{t}, t, y), \sigma_{q}^2I)
+$$
+&lt;/div&gt;
+&lt;h2 id="improvementscore-function"&gt;Improvement(Score function)&lt;a class="anchor" href="#improvementscore-function"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;div&gt;
+$$
+\epsilon \approx -\sqrt{ 1-\bar{\alpha}_{t} }\nabla_{x_{t}}\log p(x_{t})
+$$
+&lt;/div&gt;
+&lt;p&gt;여기서 $\nabla_{x_{t}}\log p(x_{t})$를 score 또는 score function이라 부른다. 노이즈와 점수가 상수배 차이가 나므로, 점수 자체를 학습하는 신경망도 가능하다.&lt;/p&gt;
+&lt;h3 id="유도"&gt;유도&lt;a class="anchor" href="#%ec%9c%a0%eb%8f%84"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div&gt;
+$$
+\begin{align}
+q(x_{t}|x_{0}) &amp; = N(x_{t}; \sqrt{ \bar{\alpha}_{t} }x_{0}, (1-\bar{\alpha}_{t})I) \\
+ &amp; \text{(by Tweedie's Formula)} \\
+\mathbb{E}[\sqrt{ \bar{\alpha}_{t} }x_{0}|x_{t}] &amp; = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow \mathbb{E}[x_{t}-\sqrt{ 1-\bar{\alpha}_{t} }\epsilon|x_{t}] = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow\mathbb{E}[x_{t}|x_{t}] - \mathbb{E}[\sqrt{ 1-\bar{\alpha}_{t} }\epsilon|x_{t}] = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow x_{t}- \mathbb{E}[\sqrt{ 1-\bar{\alpha}_{t} }\epsilon|x_{t}] = x_{t} + (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \Leftrightarrow -\sqrt{ 1-\bar{\alpha}_{t} }\mathbb{E}[\epsilon|x_{t}] = (1-\bar{\alpha}_{t})\nabla_{x_{t}}\log p(x_{t}) \\
+ &amp; \text{(by Monte Carlo)} \\
+ &amp; 
+\epsilon \approx -\sqrt{ 1-\bar{\alpha}_{t} }\nabla_{x_{t}}\log p(x_{t})
+\end{align}
+$$
+&lt;/div&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;[!Twedie&amp;rsquo;s Formula]-&lt;/p&gt;</description></item></channel></rss>
