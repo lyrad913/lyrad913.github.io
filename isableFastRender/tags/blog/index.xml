@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Segundo Cerebro</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Segundo Cerebro</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <lastBuildDate>Sun, 19 Oct 2025 12:36:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diffusion Model</title>
+      <link>http://localhost:1313/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model/</link>
+      <pubDate>Tue, 12 Aug 2025 15:47:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cerebro/Artificial-Intelligence/Neural-Network/Diffusion-Model/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;VAE&#34;&gt;VAE&lt;/a&gt;와 비교했을 때 다음의 차이가 있음&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;관측 변수와 잠재 변수의 차원을 일치&lt;/li&gt;&#xA;&lt;li&gt;고정된 정규 분포를 따르는 노이즈를 인코더에 추가.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;알고리즘&#34;&gt;알고리즘&lt;a class=&#34;anchor&#34; href=&#34;#%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;x_T ~ N(0, 1)&#xA;for t in [T, ..., 1]:&#xA;&#x9;epsilon ~ N(0, 1)&#xA;&#x9;if t = 1 then epsilon = 0&#xA;&#x9;x_{t-1} = mu_{theta}(x_t, t) + sigma_q(t)*epsilon&#xA;return x_0&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;diffusion-process&#34;&gt;Diffusion Process&lt;a class=&#34;anchor&#34; href=&#34;#diffusion-process&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;$$&#xA;q(x_{t}|x_{t-1}) = N(x_{t}; \sqrt{ 1-\beta_{t} }x_{t-1}, \beta_{t}I)&#xA;$$&lt;/p&gt;&#xA;&lt;h3 id=&#34;noise-sampling&#34;&gt;Noise Sampling&lt;a class=&#34;anchor&#34; href=&#34;#noise-sampling&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;$\beta_{t}$  값은 설정된 값(선형, 지수, 코사인파 등등)&lt;/p&gt;&#xA;&lt;h3 id=&#34;재매개변수화-트릭&#34;&gt;재매개변수화 트릭&lt;a class=&#34;anchor&#34; href=&#34;#%ec%9e%ac%eb%a7%a4%ea%b0%9c%eb%b3%80%ec%88%98%ed%99%94-%ed%8a%b8%eb%a6%ad&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;$$&#xA;\begin{align}&#xA;\epsilon &amp;amp;\sim  N(0, 1) \&#xA;x_{t} &amp;amp;= \sqrt{ 1-\beta_{t} }x_{t-1} + \sqrt{ \beta_{t} }\epsilon \&#xA;\end{align}&#xA;$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

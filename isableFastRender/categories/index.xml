@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Segundo Cerebro</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Segundo Cerebro</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <lastBuildDate>Tue, 14 Oct 2025 21:40:54 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Science</title>
+      <link>http://localhost:1313/categories/computer-science/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/categories/computer-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consensus Algorithms</title>
+      <link>http://localhost:1313/categories/consensus-algorithms/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/categories/consensus-algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed Computing</title>
+      <link>http://localhost:1313/categories/distributed-computing/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/categories/distributed-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed Systems</title>
+      <link>http://localhost:1313/categories/Distributed-systems/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/categories/Distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fault Tolerance</title>
+      <link>http://localhost:1313/categories/fault-tolerance/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/categories/fault-tolerance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Protocols</title>
+      <link>http://localhost:1313/categories/network-protocols/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/categories/network-protocols/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on Segundo Cerebro</title>
+    <link>http://localhost:1313/tags/computer-science/</link>
+    <description>Recent content in Computer Science on Segundo Cerebro</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <lastBuildDate>Tue, 14 Oct 2025 21:40:54 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Impossibility of Distributed Consensus with One Faulty Process</title>
+      <link>http://localhost:1313/posts/paper/fischerImpossibilityDistributedConsensuswith/</link>
+      <pubDate>Mon, 13 Oct 2025 11:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/paper/fischerImpossibilityDistributedConsensuswith/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/katex/katex.min.css&#34; /&gt;&lt;script defer src=&#34;http://localhost:1313/katex/katex.min.js&#34;&gt;&lt;/script&gt;&lt;script defer src=&#34;http://localhost:1313/katex/auto-render.min.js&#34; onload=&#34;renderMathInElement(document.body, {&amp;#34;delimiters&amp;#34;:[{&amp;#34;left&amp;#34;:&amp;#34;$$&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;$$&amp;#34;,&amp;#34;display&amp;#34;:true},{&amp;#34;left&amp;#34;:&amp;#34;\\[&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;\\]&amp;#34;,&amp;#34;display&amp;#34;:true},{&amp;#34;left&amp;#34;:&amp;#34;$&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;$&amp;#34;,&amp;#34;display&amp;#34;:false},{&amp;#34;left&amp;#34;:&amp;#34;\\(&amp;#34;,&amp;#34;right&amp;#34;:&amp;#34;\\)&amp;#34;,&amp;#34;display&amp;#34;:false}]});&#34;&gt;&lt;/script&gt;&#xA;&lt;details open=&#34;&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div class=&#34;markdown-inner&#34;&gt;&#xA;&lt;p&gt;합의 문제는 일부가 신뢰할 수 없을 수 있는 비동기적 프로세스 시스템을 포함함. 본 논문에서의 문제는 신뢰할 수 있는 프로세스들의 이진 값 합의가 되겠다. 본 논문에서는 이 문제를 해결하기 위한 그 어떤 프로토콜이더라도, 단 하나의 결함 있는 프로세스가 있을 경우 종료되지 않을 수 있음을 보인다. 이에 반해 동기적인 경우(즉, Byzantine Generals)의 경우에는 해결할 수 있음이 알려져 있다.&lt;/p&gt;&#xA;&lt;/div&gt;&lt;/details&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;a class=&#34;anchor&#34; href=&#34;#1-introduction&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;원격 프로세스간의 동의에 이르는 것이 분산 컴퓨팅에서의 핵심 문제이자, 분산 데이터 처리, 분산 파일 관리, 분산 어플리케이션의 장애 내성 등의 많은 알고리즘의 핵심이 된다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
